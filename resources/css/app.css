@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+pre {
+    display: block;
+    overflow: auto;
+    background-color: black;
+    color: burlywood;
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title-color {
+    color: #002c71;
+}
+.bg-header {
+    background-color: #2f476d;
+}
+
+pre .ql-syntax {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+}
+.blur {
+    filter: blur(25px);
+    animation-name: example;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.no-blur {
+    filter: blur(0);
+    transition: filter 0.3s 0.3s ease-in;
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#content code {
+    padding: 5px;
+    margin: 5px;
+    color: #d83939;
+}
+
+#content a {
+    color: #002c71;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+#content a:hover {
+    color: #0c5460;
+}
