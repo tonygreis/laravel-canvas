@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
 use App\Models\Serie;
-use Canvas\Models\Topic;
+use App\Models\Topic;
 
 class WelcomeController extends Controller
 {

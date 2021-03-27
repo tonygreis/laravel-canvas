@@ -58,10 +58,10 @@ pre .ql-syntax {
 }
 
 #content a {
-    color: #002c71;
     font-weight: bold;
     padding: 5px;
     margin: 5px;
+    text-decoration: none;
 }
 #content a:hover {
     color: #0c5460;

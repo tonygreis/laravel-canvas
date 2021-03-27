@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
-use Canvas\Models\Topic;
+use App\Models\Topic;
 use Illuminate\Http\Request;
 
 class TopicController extends Controller

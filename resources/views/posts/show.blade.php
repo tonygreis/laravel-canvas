@@ -42,7 +42,7 @@
                     <div class="text-4xl title-color font-bold font-serif pb-4">{{ $post->title }}</div>
                 </div>
                <div class="flex justify-center">
-                   <div id="content" class="w-full p-6 sm:prose prose-sm prose">
+                   <div id="content" class="w-full p-6 prose md:prose-lg lg:prose-xl prose-fuchsia">
                        {!! $post->body !!}
                    </div>
                </div>

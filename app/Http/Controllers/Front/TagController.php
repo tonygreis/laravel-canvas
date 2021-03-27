@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
-use Canvas\Models\Tag;
+use App\Models\Tag;
 use Illuminate\Http\Request;
 
 class TagController extends Controller
